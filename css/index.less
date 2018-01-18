@@ -1,5 +1,5 @@
 @base_w: 1200px;
-
+@colorRed:#e60012;
 .banner{
   height:930px;
   .swiper-container{
@@ -46,5 +46,53 @@
   }
 }
 .content{
-
+    &>div{
+        
+    }
+    text-align: center;
+    .part1{
+        .headline{
+            height: 200px;
+            line-height: 200px;
+        }
+        .two{
+            margin-bottom: 180px;
+            &>div{
+                width: 49%;
+                i{
+                    display: inline-flex;
+                    width: 78px;
+                    height: 78px;
+                }
+                &>div{color: #999;margin-top: 15px;}
+            }
+            &>div:hover p{
+                color: @colorRed;
+            }
+            .fl{
+                i{
+                    background: url(../img/01index/two1.png) no-repeat;
+                }
+            }
+            .fr{
+                i{
+                    background: url(../img/01index/two2.png) no-repeat;
+                }
+            }
+        }
+        .product{
+            background: #999;
+            width: 100%;
+            height: 0;
+            padding-bottom: 57%;
+            position: relative;
+            &>div{
+                height: 100%;
+                position: absolute;
+            }
+            .p1{width: 40.62%;background: yellow;}
+            .p2{width: 33.33%;margin: 0 1%;background: yellowgreen;}
+            .p3{width: 23.75%;background: burlywood;}
+        }
+    }
 }

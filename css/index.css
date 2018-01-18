@@ -43,3 +43,58 @@
 .banner .swiper-active-switch {
   background: #000;
 }
+.content {
+  text-align: center;
+}
+.content .part1 .headline {
+  height: 200px;
+  line-height: 200px;
+}
+.content .part1 .two {
+  margin-bottom: 180px;
+}
+.content .part1 .two > div {
+  width: 49%;
+}
+.content .part1 .two > div i {
+  display: inline-flex;
+  width: 78px;
+  height: 78px;
+}
+.content .part1 .two > div > div {
+  color: #999;
+  margin-top: 15px;
+}
+.content .part1 .two > div:hover p {
+  color: #e60012;
+}
+.content .part1 .two .fl i {
+  background: url(../img/01index/two1.png) no-repeat;
+}
+.content .part1 .two .fr i {
+  background: url(../img/01index/two2.png) no-repeat;
+}
+.content .part1 .product {
+  background: #999;
+  width: 100%;
+  height: 0;
+  padding-bottom: 57%;
+  position: relative;
+}
+.content .part1 .product > div {
+  height: 100%;
+  position: absolute;
+}
+.content .part1 .product .p1 {
+  width: 40.62%;
+  background: yellow;
+}
+.content .part1 .product .p2 {
+  width: 33.33%;
+  margin: 0 1%;
+  background: yellowgreen;
+}
+.content .part1 .product .p3 {
+  width: 23.75%;
+  background: burlywood;
+}

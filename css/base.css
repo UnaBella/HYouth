@@ -24,6 +24,16 @@ body {
 .pt50 {
   padding-top: 50px;
 }
+.f30 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.f22 {
+  font-size: 22px;
+}
+.f26 {
+  font-size: 26px;
+}
 .header {
   position: fixed;
   top: 0;
@@ -67,9 +77,6 @@ body {
   color: #fff;
   background: #2c2c2c;
 }
-.footer .ft {
-  padding-top: 50px;
-}
 .footer h4 {
   height: 26px;
   font-size: 20px;
@@ -97,4 +104,49 @@ body {
   color: #828282;
   font-size: 12px;
   padding-bottom: 15px;
+}
+.pubpart .in {
+  height: 700px;
+  background: url(../img/01index/pubbg.jpg) no-repeat;
+  background-position: center 0;
+  background-size: cover;
+}
+.pubpart .in .t {
+  margin-top: 120px;
+  width: 42%;
+}
+.pubpart .in .t .unit {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.pubpart .in .t .unit .p {
+  color: #000;
+}
+.pubpart .in .t .unit .word {
+  color: #999;
+  margin-top: 5px;
+  line-height: 1.6;
+}
+.pubpart .in .t .icon {
+  margin-top: 35px;
+}
+.pubpart .in .t .icon i {
+  margin-right: 60px;
+  display: inline-block;
+  background: url('../img/01index/icon.png') no-repeat;
+}
+.pubpart .in .t .icon .icon1 {
+  width: 35px;
+  height: 30px;
+  background-position: 0 -2px;
+}
+.pubpart .in .t .icon .icon2 {
+  width: 39px;
+  height: 32px;
+  background-position: -102px 0px;
+}
+.pubpart .in .t .icon .icon3 {
+  width: 33px;
+  height: 23px;
+  background-position: -207px -7px;
 }
