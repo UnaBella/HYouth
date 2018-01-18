@@ -15,7 +15,7 @@ body{
     /*overflow-x: hidden;*/
     -webkit-overflow-scrolling:touch ;/* 开启mobile网页快速滚动和回弹的效果*/
     font-size: 12px;
-    min-width: 1400px;
+    min-width: 1200px;
     font-family: 'Microsoft Yahei';
 }
 a{
@@ -47,6 +47,4 @@ input{
 li,ol{
     list-style: none;
 }
-.sprite-icon{
 
-}
