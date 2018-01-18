@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>案例展示</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/case.css" rel="stylesheet">
+    <link rel="icon" href="http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/title.png" type="image/x-icon" >
+</head>
+<body>
+<div class="top-pic"><img src="img/02case/top-pic.jpg"></div>
+<!--tab start-->
+<div class="case-tab auto">
+    <!--tab title-->
+    <ul class="tab-tit">
+       <li class="on">外观创意设计</li>
+       <li>装备防护设计</li>
+    </ul>
+    <!--tab content-->
+    <div class="tab-content">
+        <!--tab panel1-->
+        <div class="tab-panel">
+            <div class="clearfix"></div>
+        </div>
+        <!--tab panel2-->
+        <div class="tab-panel none">
+            tab22222222
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/x-handlebars-template" id="case-list">
+    {{#each data}}
+    <div class="item">
+        <a href="javascript:;">
+            <img src="{{pic}}" alt=""/>
+        </a>
+        <div class="cover">
+            <h3>{{title}}</h3>
+            <p>{{desc}}</p>
+        </div>
+    </div>
+    {{/each}}
+</script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/handlebars-v4.0.5.js"></script>
+<script src="js/case.js"></script>
+</html>

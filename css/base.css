@@ -5,9 +5,6 @@
   height: 0;
   clear: both;
 }
-body {
-  background: #131313;
-}
 body .bg-blank {
   background: #131313;
 }
@@ -33,7 +30,7 @@ body .bg-blank {
   display: none;
 }
 .auto {
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
 }
 .header {
@@ -220,6 +217,6 @@ body .bg-blank {
 }
 .content .bread-index .auto {
   font-weight: 100;
-  width: 1400px;
+  width: 1200px;
   padding-left: 150px;
 }
