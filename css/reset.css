@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Helvetica',Helvetica,sans-serif;
+    /*谷歌浏览器字体最小字体12px*/
+    -webkit-text-size-adjust:none; /*none/100% 关闭字体大小自动调整*/
+    -webkit-tap-highlight-color:transparent;/* 去除a标签以及拥有 :active伪类元素有默认高亮框*/
+    -webkit-user-select:none/*禁止文本被选中*/
+}
+body{
+    /*overflow-x: hidden;*/
+    -webkit-overflow-scrolling:touch ;/* 开启mobile网页快速滚动和回弹的效果*/
+    font-size: 12px;
+    min-width: 1400px;
+    font-family: 'Microsoft Yahei';
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+input{
+    -webkit-appearance:none ;/*清除input默认属性*/
+    outline : none;
+    border: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+li,ol{
+    list-style: none;
+}
+.sprite-icon{
+
+}
