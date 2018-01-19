@@ -75,7 +75,6 @@
   background: url(../img/01index/two2.png) no-repeat;
 }
 .content .part1 .product {
-  background: #999;
   width: 100%;
   height: 0;
   padding-bottom: 57.8%;
@@ -86,7 +85,7 @@
   position: absolute;
 }
 .content .part1 .product > div .dhover:hover .con {
-  background: rgba(230, 0, 18, 0.8);
+  background: rgba(230, 0, 18, 0.9);
 }
 .content .part1 .product > div .dhover:hover .con .p {
   display: block;
@@ -167,7 +166,6 @@
 }
 .content .part1 .product .pr3 > div {
   margin-bottom: 2.5%;
-  background: oldlace;
 }
 .content .part1 .product .pr3 .right1 {
   height: 66%;
@@ -179,26 +177,213 @@
   background: url(../img/01index/p09.png) no-repeat;
   background-size: 100% 100%;
 }
+.content .part2 {
+  text-align: center;
+}
 .content .part2 .iconswiper {
-  height: 530px;
+  position: relative;
+  height: 450px;
 }
 .content .part2 .iconswiper .swiper-container {
+  width: 1040px;
   height: 100%;
 }
 .content .part2 .iconswiper .swiper-slide {
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover ;
-  display: block;
 }
 .content .part2 .iconswiper .slide1 {
-  background-image: url(../img/01index/banner1.jpg);
+  background: url(../img/01index/swipericon1.png) no-repeat top center;
 }
 .content .part2 .iconswiper .slide2 {
-  background-image: url(../img/01index/banner2.jpg);
+  background: url(../img/01index/swipericon2.png) no-repeat top center;
 }
 .content .part2 .iconswiper .slide3 {
-  background-image: url(../img/01index/banner3.jpg);
+  background: url(../img/01index/swipericon3.png) no-repeat top center;
+}
+.content .part2 .iconswiper .arrow {
+  position: absolute;
+  top: 100px;
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.content .part2 .iconswiper .prev {
+  left: 0;
+  background-image: url("../img/01index/prev.png");
+}
+.content .part2 .iconswiper .next {
+  right: 0;
+  background-image: url("../img/01index/next.png");
+}
+.content .part2 .iconswiper .prev:hover {
+  background-image: url("../img/01index/prev-on.png");
+}
+.content .part2 .iconswiper .next:hover {
+  background-image: url("../img/01index/next-on.png");
+}
+.content .part2 .words {
+  margin-bottom: 110px;
+  line-height: 1.5;
+}
+.content .part3 {
+  padding: 0 1% 0 2%;
+}
+.content .part3 .news {
+  width: 100%;
+  height: 0;
+  padding-bottom: 18.23%;
+  margin-bottom: 1.5%;
+  position: relative;
+}
+.content .part3 .news > div {
+  position: absolute;
+  height: 100%;
+}
+.content .part3 .news > div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content .part3 .news > div .con {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  background: transparent;
+}
+.content .part3 .news > div .con .p {
+  width: 100%;
+}
+.content .part3 .news > div .con .p .data {
+  font-size: 70px;
+}
+.content .part3 .news > div .con .p .year {
+  font-size: 20px;
+}
+.content .part3 .news > div .con .p .det {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 1.5;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content .part3 .news > div .con .p .desc {
+  color: #999;
+  font-size: 18px;
+  line-height: 1.5;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.content .part3 .news .dhover {
+  height: 100%;
+}
+.content .part3 .news .dhover:hover .con {
+  color: #fff;
+  background: rgba(230, 0, 18, 0.9);
+}
+.content .part3 .news .dhover:hover .con .p {
+  display: block;
+}
+.content .part3 .news .dhover:hover .con .p .desc {
+  color: #fff;
+}
+.content .part3 .news .left {
+  width: 52.68%;
+  left: 0;
+}
+.content .part3 .news .left .left_l {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .part3 .news .left .left_l .newsword,
+.content .part3 .news .left .left_l .newsCenter {
+  font-size: 3rem;
+  color: #000000;
+}
+.content .part3 .news .left .left_r {
+  width: 50%;
+}
+.content .part3 .news .right {
+  background: url(../img/01index/20160819.png) no-repeat;
+  background-size: 100% 100%;
+  width: 45.16%;
+  right: 0;
+}
+.content .part3 .news2 .mleft {
+  right: 0;
+  left: auto;
+}
+.content .part3 .news2 .mright {
+  left: 0;
+  background: url(../img/01index/20160530.png) no-repeat;
+  background-size: 100% 100%;
+}
+.content .part3 .news3 .right {
+  background: url(../img/01index/20150916.png) no-repeat;
+  background-size: 100% 100%;
+}
+.content .part3 .more a {
+  color: #000;
+}
+.content .part3 .more .icon {
+  background: url(../img/01index/more.png) no-repeat 55% center;
+}
+.content .part3 .more:hover {
+  background: #e60012;
+}
+.content .part3 .more:hover a {
+  color: #fff;
+}
+.content .part4 .in {
+  text-align: center;
+  height: 900px;
+  background: url(../img/01index/introduce.png) no-repeat;
+  background-position: center 0;
+  background-size: cover;
+}
+.content .part4 .in > div.auto {
+  padding-top: 100px;
+}
+.content .part4 .in .desc {
+  margin-top: 80px;
+  color: #999;
+}
+.content .part4 .in .more {
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+.content .part4 .in .more a {
+  background: #fff;
+  color: #e60012;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 620px;
+  height: 110px;
+  border-radius: 55px;
+  border: 1px solid #999;
+}
+.content .part4 .in .more .icon {
+  width: 100%;
+  background: url(../img/01index/more.png) no-repeat 60% center;
+}
+.content .part4 .in .more a:hover {
+  background: #e60012;
+  color: #fff;
+  border-color: #e60012;
 }
