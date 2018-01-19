@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>案例展示</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/case-pro.css" rel="stylesheet">
+    <link rel="icon" href="http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/title.png" type="image/x-icon" >
+</head>
+<body>
+<nav></nav>
+<div class="content">
+
+</div>
+<footer></footer>
+</body>
+<script type="text/x-handlebars-template" id="content">
+    {{#with this}}
+    <div class="banner" style="background-image:url({{banner}})"></div>
+        {{#with block1}}
+        <div class="module">
+            <div class="text">
+                <div class="textauto textautoP1">
+                    <h1 class="pt95">{{title}}</h1>
+                    <h2>{{title2}}</h2>
+                    <div class="desc">
+                        {{#each desc}}
+                            <p>{{this}}</p>
+                        {{/each}}
+                    </div>
+                    <h3>{{title3}}</h3>
+                    <p class="textp"></p>
+                </div>
+            </div>
+            <div class="bg {{{ifBlank blankColor}}}" style="background-image:url({{bg}})">
+               {{picText}}
+            </div>
+        </div>
+        {{/with}}
+        {{#with block2}}
+        <div class="module">
+            <div class="text">
+                <div class="textauto textautoPo">
+                    <div class="product">
+                        <img src="{{proPic}}" />
+                    </div>
+                    <div class="zi">
+                        <h1 class="pt95">{{title}}</h1>
+                        <div class="desc">
+                            {{#each desc}}
+                                <p>{{this}}</p>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg {{{ifBlank blankColor}}}" style="background-image:url({{bg}})">
+                {{picText}}
+            </div>
+        </div>
+        {{/with}}
+    {{/with}}
+</script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/handlebars-v4.0.5.js"></script>
+<script src="js/headerFooter.js"></script>
+<script src="js/public.js"></script>
+<script>
+    $(function(){
+        $.ajax({
+            type:'get',
+            url : '../data/case-pro.json',
+            success : function(data){
+                if(data.state == "0"){
+                    var id = Util.queryString('id');
+                    var data = data.data[id];
+                    var source   = $("#content").html();
+                    var template = Handlebars.compile(source);
+                    var html    = template( data );
+                    $('.content').append( html );
+                }
+            }
+        });
+    })
+</script>
+</html>

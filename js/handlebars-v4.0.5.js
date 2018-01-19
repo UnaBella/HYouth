@@ -145,7 +145,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 1 */
+/* cuijian_1 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -281,10 +281,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.COMPILER_REVISION = COMPILER_REVISION;
 	var REVISION_CHANGES = {
-	  1: '<= 1.0.rc.2', // 1.0.rc.2 is actually rev2 but doesn't report it
-	  2: '== 1.0.0-rc.3',
-	  3: '== 1.0.0-rc.4',
-	  4: '== 1.x.x',
+	  1: '<= cuijian_1.0.rc.2', // cuijian_1.0.rc.2 is actually rev2 but doesn't report it
+	  2: '== cuijian_1.0.0-rc.3',
+	  3: '== cuijian_1.0.0-rc.4',
+	  4: '== cuijian_1.x.x',
 	  5: '== 2.0.0-alpha.x',
 	  6: '>= 2.0.0-beta.1',
 	  7: '>= 4.0.0'

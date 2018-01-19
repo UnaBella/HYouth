@@ -55,6 +55,10 @@ $(function(){
         mySwiper.swipeNext();
     });
 
+    //跳转
+    $('.tab-content ').on('click','.tab-panel .item', function () {
+        window.location.href = "case-pro.html?id=" + $(this).attr('data-id');
+    })
 
 
 });
