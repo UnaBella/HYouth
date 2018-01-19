@@ -57,7 +57,8 @@
     .part1{
         .two{
             margin-bottom: 180px;
-            &>div{
+            &>a{color: #000;}
+            &>a>div{
                 width: 49%;
                 i{
                     display: inline-flex;
@@ -66,7 +67,7 @@
                 }
                 &>div{color: #999;margin-top: 15px;}
             }
-            &>div:hover p{
+            &>a>div:hover p{
                 color: @colorRed;
             }
             .fl{
@@ -81,7 +82,6 @@
             }
         }
         .product{
-            background: #999;
             width: 100%;
             height: 0;
             padding-bottom: 57.8%;
@@ -90,7 +90,7 @@
                 height: 100%;
                 position: absolute;
                 .dhover:hover .con{
-                    background: rgba(230,0,18,0.8);
+                    background: rgba(230,0,18,0.9);
                 }
                 .dhover:hover .con .p{
                     display: block;
@@ -110,7 +110,6 @@
             }
             .pr1{
                 width: 41.66%;
-//              background: yellow;
                 &>div{
                     width: 98%;
                     height: 32.28%;
@@ -155,7 +154,6 @@
             }
             .pr2{
                 width: 34.37%;
-//              background: yellowgreen;
                 left: 41.66%;
                 &>div{
                     width: 97.5%;
@@ -174,11 +172,9 @@
              }
             .pr3{
                 width: 23.97%;
-//              background: burlywood;
                 right:0 ;
                 &>div{
                     margin-bottom: 2.5%;
-                    background: oldlace;
                 }
                 .right1{
                     height: 66%;
@@ -194,29 +190,216 @@
         }
     }
     .part2{
+        text-align: center;
         .iconswiper{
-            height: 530px;
+            position: relative;
+            height: 450px;
              .swiper-container{
-            height:100%;
+              width: 1040px;
+            height: 100%;
           }
           .swiper-slide{
               width: 100%;
-            height:100%;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size:cover ;
-            display: block;
+              height:100%;
+          }
+          .slide1{              background:url(../img/01index/swipericon1.png) no-repeat top center;
+          }
+          .slide2{              background:url(../img/01index/swipericon2.png) no-repeat top center;
+          }
+          .slide3{              background:url(../img/01index/swipericon3.png) no-repeat top center;
+          }
+          .arrow{
+              position: absolute;
+              top:100px;
+              z-index: 10;
+              width: 150px;
+              height:150px;
+              background-repeat: no-repeat;
+              background-position: center center;
+            }
+            .prev{
+              left:0;
+              background-image: url("../img/01index/prev.png");
+            }
+            .next{
+              right:0;
+              background-image: url("../img/01index/next.png");
+            }
+            .prev:hover{
+              background-image: url("../img/01index/prev-on.png");
+            }
+            .next:hover{
+              background-image: url("../img/01index/next-on.png");
+            }
+        }
+        .words{
+            margin-bottom: 110px;
+            line-height: 1.5;
+        }
+    }
+    .part3{
+        padding: 0 1% 0 2%;
+        .news{
+//          background: #ccc;
+            width: 100%;
+            height: 0;
+            padding-bottom: 18.23%;
+            margin-bottom: 1.5%;
+            position: relative;
+            &>div{
+                position: absolute;
+                height: 100%;
+                a{display: block;width: 100%;height: 100%;}
+                .con{
+                    padding: 20px;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #000;
+                    background: transparent;
+                    .p{
+                        width: 100%;
+//                      height: 100%;
+                        .data{
+                            font-size: 70px;
+                        }
+                        .year{
+                            font-size: 20px;
+                        }
+                        .det{
+                            width: 100%;
+                            margin-top: 10px;
+                            font-size: 20px;
+                            line-height: 1.5;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+                        .desc{
+                            color: #999;
+                            font-size: 18px;
+                            line-height: 1.5;
+                            text-overflow: -o-ellipsis-lastline;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                        }
+                    }
+                }
+            }
+            .dhover{height: 100%;}
+            .dhover:hover .con{
+                color: #fff;
+                background: rgba(230,0,18,0.9);
+            }
+            .dhover:hover .con .p{
+                display: block;
+            }
+            .dhover:hover .con .p .desc{
+                color: #fff;
+            }
+            .left{
+                width: 52.68%;
+                left: 0;
+                .left_l{
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .newsword,.newsCenter{
+                        font-size: 3rem;
+                        color: #000000;
+                    }
+                }
+                .left_r{
+                    width: 50%;
+                }
+            }
+            .right{
+                background: url(../img/01index/20160819.png) no-repeat;
+                background-size: 100% 100%;
+                width: 45.16%;
+                right: 0;
+            }
+        }
+        .news2{
+            .mleft{
+                right: 0;
+                left: auto;
+                
+            }
+            .mright{
+              left: 0;
+               background: url(../img/01index/20160530.png) no-repeat;
+                background-size: 100% 100%;  
+            }
+        }
+        .news3{
+            .right{
+                background: url(../img/01index/20150916.png) no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+        .more{
+            a{
+                color: #000;
+            }
+            .icon{
+               background: url(../img/01index/more.png) no-repeat 55% center; 
+            }
+        }
+        .more:hover{
+            background: @colorRed;
+            a{
+                color: #fff;
+            }
+        }
+    }
+    .part4{
+        .in{
+            text-align: center;
+            height: 900px;
+            background: url(../img/01index/introduce.png) no-repeat;
+            background-position:center 0;
+            background-size: cover;
+            &>div.auto{
+                padding-top: 100px;
+            }
+            .desc{
+                margin-top: 80px;
+                color: #999;
+            }
+            .more{
+                display: flex;
+                justify-content: center; 
+                margin-top: 160px;   
+                a{
+                    background: #fff;
+                    color: @colorRed;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 620px;
+                    height: 110px;
+                    border-radius: 55px;
+                    border: 1px solid #999;
+                }
+                .icon{
+                    width: 100%;
+                   background: url(../img/01index/more.png) no-repeat 60% center; 
+                }
+                
+            }
+            .more a:hover{
+                    background: @colorRed;
+                    color: #fff;
+                    border-color: @colorRed;
+            }
             
-          }
-          .slide1{
-            background-image:url(../img/01index/banner1.jpg);
-          }
-          .slide2{
-            background-image:url(../img/01index/banner2.jpg);
-          }
-          .slide3{
-            background-image:url(../img/01index/banner3.jpg);
-          }
         }
     }
 }

@@ -24,12 +24,23 @@ body {
 .pt50 {
   padding-top: 50px;
 }
+.mt370 {
+  margin-top: 370px;
+}
 .f30 {
   font-size: 30px;
   font-weight: 100;
 }
+.f24 {
+  font-size: 24px;
+  font-weight: 100;
+}
 .f22 {
   font-size: 22px;
+  font-weight: 100;
+}
+.f20 {
+  font-size: 20px;
   font-weight: 100;
 }
 .f26 {
