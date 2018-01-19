@@ -1,0 +1,75 @@
+.content .banner {
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/01_banner.jpg);
+}
+.content .bg1 {
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/01_1.jpg);
+}
+.content .bg2 {
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/01_2.jpg);
+}
+.content img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content .module .text {
+  position: relative;
+  width: 100%;
+  height: 538px;
+  background: #fff;
+  box-sizing: border-box;
+  line-height: 1;
+}
+.content .module .text .textauto {
+  width: 62.5%;
+  height: 100%;
+  position: relative;
+  min-width: 1400px;
+  margin: 0 auto;
+  padding-top: 95px;
+}
+.content .module .text .textauto h1 {
+  font-size: 36px;
+  margin-bottom: 55px;
+  font-weight: 100;
+}
+.content .module .text .textauto h2,
+.content .module .text .textauto h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 100;
+}
+.content .module .text .textauto .desc {
+  font-size: 15px;
+  line-height: 44px;
+  margin-bottom: 26px;
+}
+.content .module .text .textautoPo .product {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.content .module .text .textautoPo .zi {
+  float: right;
+  text-align: right;
+}
+.content .module .bg {
+  height: 848px;
+  line-height: 848px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  color: #fff;
+}
+.content .module .c_blank {
+  color: black;
+}
