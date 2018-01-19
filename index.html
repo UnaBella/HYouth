@@ -29,7 +29,7 @@
 
 	<!--banner start-->
 		<div class="banner">
-			<div class="swiper-container">
+			<div class="swiper-container"  id="swiper1">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide slide1"><a href=""></a></div>
 					<div class="swiper-slide slide2"><a href=""></a></div>
@@ -57,12 +57,59 @@
 				</div>
 			</div>
 			<div class="product">
-				<div class="p1 fl"></div>
-				<div class="p2 fl"></div>
-				<div class="p3 fr"></div>
+				<div class="pr1 fl">
+					<div class="left1 clearfix">
+						<div class="left1_l fl"></div>
+						<div class="left1_r fr"></div>
+					</div>
+					<div class="left2 clearfix">
+						<div class="left2_l fl"></div>
+						<div class="left2_r fr"></div>
+					</div>
+					<div class="left3"></div>
+				</div>
+				<div class="pr2 fl">
+					<div class="mid1 dhover">
+						<a href="">
+							<div class="con">
+								<div class="p">
+									<p class="f30">无声派对</p>
+									<p class="f26">耳机设计</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="mid2 dhover">
+						<a href="">
+							<div class="con">
+								<div class="p">
+									<p class="f30">无声派对</p>
+									<p class="f26">耳机设计</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="pr3 fr">
+					<div class="right1 dhover"></div>
+					<div class="right2 dhover"></div>
+				</div>
 			</div>
 		</div>
-		<div class="part2"></div>
+		<div class="part2">
+			<div class="headline f26">MORE</div>
+			<div class="headline f30">获得荣誉</div>
+			<div class="iconswiper auto">
+				<div class="swiper-container"  id="swiper2">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide1">1</div>
+						<div class="swiper-slide slide2">2</div>
+						<div class="swiper-slide slide3">3</div>
+					</div>
+					<!--<div class="pagination"></div>-->
+				</div>
+			</div>
+		</div>
 		<div class="part3"></div>
 		<div class="part4"></div>
 	</div>
@@ -146,17 +193,20 @@
 	<!--<script src="js/index.js" type="text/javascript" charset="utf-8"></script>-->
 	<script>
 		window.onload = function() {
-			var mySwiper = new Swiper('.swiper-container',{
+			var mySwiper = new Swiper('#swiper1',{
 				loop: true,
 				autoplay : 5000,
 				pagination : '.pagination',
 				paginationClickable :true
 			});
-
-		};
-
-function getScrollTop()
-		{
+			var swiper = new Swiper('#swiper2', {
+			    loop: true,
+				autoplay : 5000,
+				pagination : '.pagination',
+				paginationClickable :true
+			});
+}
+function getScrollTop(){
 			var scrollTop=0;
 			if(document.documentElement&&document.documentElement.scrollTop)
 			{
