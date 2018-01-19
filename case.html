@@ -26,7 +26,7 @@
             <div class="clearfix">
                 <div class="item">
                     <a href="javascript:;">
-                        <img src="img/02case/c1g-1.jpg" alt="">
+                        <img src="img/02case/c1g-cuijian_1.jpg" alt="">
                     </a>
                     <div class="cover">
                         <h3>aaaaaa</h3>
@@ -76,10 +76,10 @@
 </body>
 <script type="text/x-handlebars-template" id="case-list">
     <!--tab panel1-->
-    <div class="tab-panel">
+    <div class="tab-panel panel1">
         <div class="clearfix">
             {{#each data.tab1}}
-            <div class="item">
+            <div class="item" data-id="{{id}}">
                 <a href="javascript:;">
                     <img src="{{pic}}" alt=""/>
                 </a>
@@ -95,7 +95,7 @@
         </div>
     </div>
     <!--tab panel2-->
-    <div class="tab-panel none">
+    <div class="tab-panel panel2 none">
         <div class="swiper">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
