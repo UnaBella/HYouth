@@ -44,5 +44,13 @@ var footer = '<div class="footer">'+
 			'<div class="auto end">'+
 					'京ICP备11017824号-4 / 京ICP证130164号 &nbsp; | &nbsp;北京市公安局朝阳分局备案编号:110105000501 &nbsp; | &nbsp;Copyright © 2014 后青春工业设计公司'+
 			'</div>'+
-		'</div>'
+		'</div>';
 $('footer').append(footer);
+$(window).scroll(function () {
+	var _header = document.querySelector('.header');
+	if($(document).scrollTop() > 0){
+		_header.className = 'header bg-white';
+	}else {
+		_header.className = 'header';
+	}
+});

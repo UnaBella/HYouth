@@ -82,6 +82,28 @@
                 }
             }
         });
+
+        var H = document.body.scrollHeight;
+        var k;
+        var temp;
+        var sss=90;
+        window.onscroll = function () {
+            var t = $(document).scrollTop();
+            if (t>temp) {
+                console.log("向下（越来越大）");
+                var a = t-temp;
+                sss--;
+                var pos = "50%"+(parseInt(sss)*0.8)+"px";
+                $('.content .module .bg').css("background-position",pos)
+            } else{
+                console.log("向上")
+                var a = t-temp;
+                sss++;
+                var pos = "50%"+(parseInt(sss)*0.8)+"px";
+                $('.content .module .bg').css("background-position",pos)
+            }
+            temp = t;
+        };
     })
 </script>
 </html>
