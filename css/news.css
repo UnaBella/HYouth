@@ -1,0 +1,35 @@
+.news .title {
+  font-size: 30px;
+  margin-top: 160px;
+}
+.news .time {
+  font-size: 20px;
+  color: #999;
+  margin-top: 20px;
+}
+.news .content {
+  margin-top: 40px;
+}
+.news .content .w {
+  font-size: 18px;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
+.news .content .wb {
+  font-size: 18px;
+  line-height: 1.8;
+}
+.news .content .margin0 {
+  margin: 0;
+}
+.news .content .img {
+  text-align: center;
+}
+.news .content .img img {
+  width: 900px;
+  height: 675px;
+  margin-bottom: 60px;
+}
+.news .content .img .margin0 {
+  margin: 0;
+}

@@ -11,117 +11,57 @@
 </head>
 <body>
 <nav></nav>
-<div class="top-pic"><img src="img/02case/top-pic.jpg"></div>
-<!--tab start-->
-<div class="case-tab auto">
-    <!--tab title-->
-    <ul class="tab-tit">
-       <li class="on">外观创意设计</li>
-       <li>装备防护设计</li>
-    </ul>
-    <!--tab content-->
-    <div class="tab-content">
-        <!--tab panel1-->
-       <div class="tab-panel">
-            <div class="clearfix">
-                <div class="item">
-                    <a href="javascript:;">
-                        <img src="img/02case/c1g-1.jpg" alt="">
-                    </a>
-                    <div class="cover">
-                        <h3>aaaaaa</h3>
-                        <p>bbbbbbbbbbbbb</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--tab panel2-->
-        <div class="tab-panel ">
-           <div class="swiper">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_01sy.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_02bj.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_03tj.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_04nb.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_05as.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_06bf.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_07ah.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_08ah.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_09sh.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_10ah.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_11ah.jpg"></div>
-                        <div class="swiper-slide"> <img src="img/02case/02equipment/swiper_12dl.jpg"></div>
-                    </div>
-                </div>
-                <div class="prev arrow"></div>
-                <div class="next arrow on"></div>
-            </div>
-           <div class="design-wenzi ">
-               <img src="img/02case/02equipment/show_01sy.jpg" alt="" class="show-pic"/>
-               <h2>测试测试<span>2010</span></h2>
-               <h3>测试测试测试测试测试测试测试测试测试测试</h3>
-               <div class="text">
-                   测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
-               </div>
-               <div class="text">
-                   测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
-               </div>
-           </div>
-
-        </div>
-    </div>
+<div class="news_list">
+	<div class="banner"></div>
+	<div class="content">
+		<div class="headline f26">新闻中心</div>
+		<div class="newspart1">
+			<!--<div class="unit">
+				<div class="unitwidth clearfix">
+					<div class="left ">
+						<div class="data">08-22</div>
+						<div class="year">2016</div>
+					</div>
+					<div class="right">
+						<div class="title">后青春讲座：“设计+”创新创业培训</div>
+						<div class="desc">2016年8月19日，大连后青春工业设计有限公司举办了一场讲座活动，讲座过程中，资深工业设计师徐德鑫向大家阐述了最新的设计理念以及设计创新能够为企业带来什么。</div>
+					
+					</div>
+					<div class="icon none"></div>
+				</div>
+			</div>-->
+		</div>
+		<div class="more "><div class="icon">M O R E</div></div>
+		<div class="newsmore none">
+			<div class="newspart2"></div>
+			<div class="end">E N D</div>
+		</div>
+	</div>
 </div>
 <footer></footer>
 </body>
-<script type="text/x-handlebars-template" id="case-list">
-    <!--tab panel1-->
-    <div class="tab-panel">
-        <div class="clearfix">
-            {{#each data.tab1}}
-            <div class="item">
-                <a href="javascript:;">
-                    <img src="{{pic}}" alt=""/>
-                </a>
-                <div class="cover">
-                    <h3>{{title}}</h3>
-                    <p>
-                        <span>{{title2}}</span>
-                        {{desc}}
-                    </p>
-                </div>
-            </div>
-            {{/each}}
-        </div>
-    </div>
-    <!--tab panel2-->
-    <div class="tab-panel ">
-        <div class="swiper">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    {{#each data.tab2}}
-                    <div class="swiper-slide"> <img src="{{swiper}}"></div>
-                    {{/each}}
-                </div>
-            </div>
-            <div class="prev arrow"></div>
-            <div class="next arrow"></div>
-        </div>
-        {{#each data.tab2}}
-        <div class="design-wenzi none">
-            <img src="{{showPic}}" alt="" class="show-pic"/>
-            <h2>{{tit1}}<span>{{year}}</span></h2>
-            <h3>{{tit2}}</h3>
-            {{#each desc}}
-            <div class="text">{{this}}</div>
-            {{/each}}
-        </div>
-        {{/each}}
-    </div>
+<script type="text/x-handlebars-template" id="news-list">
+	{{#each this}}
+    <div class="unit" data-id="{{id}}">
+			<div class="unitwidth clearfix">
+				<div class="left ">
+					<div class="data">{{dat}}</div>
+					<div class="year">{{year}}</div>
+				</div>
+				<div class="right">
+					<div class="title">{{title}}</div>
+					<div class="desc">{{desc}}</div>
+				
+				</div>
+				<div class="icon none"></div>
+			</div>
+		</div>
+		{{/each}}
+		
 </script>
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/handlebars-v4.0.5.js"></script>
 <script src="plugin/swiper-2.7.6/idangerous.swiper.min.js"></script>
 <script src="js/headerFooter.js"></script>
-<!--<script src="js/case.js"></script>-->
+<script src="js/news_list.js"></script>
 </html>

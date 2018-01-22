@@ -32,3 +32,8 @@ Handlebars.registerHelper('ifBlank', function(value) {
     var str = value == undefined ? '' : 'c_blank';
     return new Handlebars.SafeString(str);
 });
+
+Handlebars.registerHelper('ifnone', function(value) {
+    var str = value == undefined ? 'none' : '';
+    return new Handlebars.SafeString(str);
+});
