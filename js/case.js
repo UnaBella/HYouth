@@ -1,7 +1,9 @@
 $(function(){
     var ifSwiper = false;
     var mySwiper;
+
     $('.header li').eq(1).addClass('on');
+
     $.ajax({
         type:'get',
         url : '../data/case.json',
@@ -10,8 +12,18 @@ $(function(){
                 var source   = $("#case-list").html();
                 var template = Handlebars.compile(source);
                 var html    = template( data );
+                var tabIndex = parseInt(Util.queryString('tab'));
+
                 $('.tab-content').append( html );
                 $('.design-wenzi').eq(0).removeClass('none');
+
+                //判断tab显示
+                if(tabIndex){
+                    $('.tab-tit li').eq(tabIndex).addClass('on').siblings('li').removeClass('on');
+                    $('.tab-panel').eq(tabIndex).removeClass('none').siblings('.tab-panel').addClass('none');
+                }
+                //init swiper
+                initSwiper(tabIndex);
             }
         }
     });
@@ -22,14 +34,9 @@ $(function(){
         var $panel = $('.tab-panel');
         $(this).addClass('on').siblings('li').removeClass('on');
         $panel.eq(index).removeClass('none').siblings('.tab-panel').addClass('none');
+
         //init swiper
-        if(index==1 && !ifSwiper){
-            ifSwiper = true;
-            mySwiper = $('.swiper-container').swiper({
-                //loop : true,
-                slidesPerView : 6
-            });
-        }
+        initSwiper(index);
     });
 
     $('.tab-content').on('click','.swiper-slide', function(){
@@ -58,7 +65,17 @@ $(function(){
     //跳转
     $('.tab-content ').on('click','.tab-panel .item', function () {
         window.location.href = "case-pro.html?id=" + $(this).attr('data-id');
-    })
+    });
+
+    function initSwiper(index){
+        if(index==1 && !ifSwiper){
+            ifSwiper = true;
+            mySwiper = $('.swiper-container').swiper({
+                //loop : true,
+                slidesPerView : 6
+            });
+        }
+    }
 
 
 });

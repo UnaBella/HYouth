@@ -18,19 +18,19 @@ var footer = '<div class="footer">'+
 					'<div class="col fl">'+
 						'<h4>明星产品</h4>'+
 						'<ul>'+
-							'<li><a href="">@魔唇棒棒糖</a></li>'+
-							'<li><a href="">龙猫充电宝</a></li>'+
-							'<li><a href="">汤姆逊电子管音响</a></li>'+
-							'<li><a href="">i-fi智能热点</a></li>'+
+							'<li><a href="case-pro.html?id=mochun_6">@魔唇棒棒糖</a></li>'+
+							'<li><a href="case-pro.html?id=longmao_4">龙猫充电宝</a></li>'+
+							'<li><a href="case-pro.html?id=tom_9">汤姆逊电子管音响</a></li>'+
+							'<li><a href="case-pro.html?id=ifi_8">i-fi智能热点</a></li>'+
 						'</ul>'+
 					'</div>'+
 					'<div class="col fl">'+
 						'<h4> </h4>'+
 						'<ul>'+
-							'<li><a href="">STAB ME 头戴式蓝牙耳机</a></li>'+
-							'<li><a href="">哈米固态蜂蜜</a></li>'+
-							'<li><a href="">汤姆逊风云系列音响</a></li>'+
-							'<li><a href="">崔健手机</a></li>'+
+							'<li><a href="case-pro.html?id=maoding_1">STAB ME 头戴式蓝牙耳机</a></li>'+
+							'<li><a href="case-pro.html?id=fengmi_2">哈米固态蜂蜜</a></li>'+
+							'<li><a href="case-pro.html?id=dayinxiang_5">汤姆逊风云系列音响</a></li>'+
+							'<li><a href="case-pro.html?id=cuijian_3">崔健手机</a></li>'+
 						'</ul>'+
 					'</div>'+
 				'</div>'+

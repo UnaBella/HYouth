@@ -339,16 +339,16 @@
   background: url(../img/01index/20150916.png) no-repeat;
   background-size: 100% 100%;
 }
-.content .part3 .more a {
+.content .more a {
   color: #000;
 }
-.content .part3 .more .icon {
+.content .more .icon {
   background: url(../img/01index/more.png) no-repeat 55% center;
 }
-.content .part3 .more:hover {
+.content .more:hover {
   background: #e60012;
 }
-.content .part3 .more:hover a {
+.content .more:hover a {
   color: #fff;
 }
 .content .part4 .in {
@@ -365,12 +365,12 @@
   margin-top: 80px;
   color: #999;
 }
-.content .part4 .in .more {
+.content .part4 .in .more4 {
   display: flex;
   justify-content: center;
   margin-top: 160px;
 }
-.content .part4 .in .more a {
+.content .part4 .in .more4 a {
   background: #fff;
   color: #e60012;
   display: flex;
@@ -381,11 +381,11 @@
   border-radius: 55px;
   border: 1px solid #999;
 }
-.content .part4 .in .more .icon {
+.content .part4 .in .more4 .icon {
   width: 100%;
   background: url(../img/01index/more.png) no-repeat 60% center;
 }
-.content .part4 .in .more a:hover {
+.content .part4 .in .more4 a:hover {
   background: #e60012;
   color: #fff;
   border-color: #e60012;

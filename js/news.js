@@ -1,4 +1,5 @@
 $(function(){
+    $('.header li').eq(2).addClass('on');
 	$.ajax({
         type:'get',
         url : '../data/news.json',

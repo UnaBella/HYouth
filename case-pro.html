@@ -68,6 +68,7 @@
 <script src="js/public.js"></script>
 <script>
     $(function(){
+        $('.header li').eq(1).addClass('on');
         $.ajax({
             type:'get',
             url : '../data/case-pro.json',
