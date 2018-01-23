@@ -37,7 +37,7 @@ var footer = '<div class="footer">'+
 				'<div class="fr">'+
 					'<div class="">'+
 						'<h4>合作品牌</h4>'+
-						'<img class="brand" src="img/01index/brand.png"/>'+
+						'<img class="brand" src="http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/brand.png"/>'+
 					'</div>'+
 				'</div>'+
 			'</div>'+

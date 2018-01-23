@@ -4,63 +4,63 @@
   "tab1" : [
    {
     "id":"maoding_1",
-    "pic" : "img/02case/01design/1.png",
+    "pic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/01design/1.png",
     "title" : "无声派对耳机",
     "title2" : "我表面带刺内心温柔用",
     "desc" : "音乐发声"
    },
    {
     "id":"fengmi_2",
-    "pic" : "img/02case/01design/2.png",
+    "pic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/01design/2.png",
     "title" : "哈米固态蜂蜜",
     "title2" : "哈米固态蜂蜜",
     "desc" : "开启蜂蜜新吃法"
    },
    {
     "id":"cuijian_3",
-    "pic" : "img/02case/01design/3.png",
+    "pic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/01design/3.png",
     "title" : "崔建手机",
     "title2" : "中国限量",
     "desc" : "明星主题智能手机"
    },
    {
     "id" : "longmao_4",
-    "pic" : "img/02case/01design/4.png",
+    "pic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/01design/4.png",
     "title" : "龙猫充电宝",
     "title2" : "小恶魔充电宝",
     "desc" : "小个头大能量超个性"
    },
    {
     "id":"dayinxiang_5",
-    "pic" : "img/02case/01design/5.png",
+    "pic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/01design/5.png",
     "title" : "汤姆逊音响",
     "title2" : "让数码a音源",
     "desc" : "无损还原真实再现"
    },
    {
     "id":"mochun_6",
-    "pic" : "img/02case/01design/6.png",
+    "pic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/01design/6.png",
     "title" : "@魔唇棒棒糖",
     "title2" : "在音乐的世界",
     "desc" : "今夜我愿化身成魔。"
    },
    {
     "id":"zipai_7",
-    "pic" : "img/02case/01design/7.png",
+    "pic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/01design/7.png",
     "title" : "Dooraa自拍神器",
     "title2" : "智能美颜",
     "desc" : " 打造绝佳影像"
    },
    {
     "id":"ifi_8",
-    "pic" : "img/02case/01design/8.png",
+    "pic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/01design/8.png",
     "title" : "i-Fi智能热点",
     "title2" : "黑科技",
     "desc" : "智能“芯”让小i变成全能"
    },
    {
     "id":"tom_9",
-    "pic" : "img/02case/01design/9.png",
+    "pic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/01design/9.png",
     "title" : "汤姆逊电子管音响",
     "title2" : "尊享视听盛宴",
     "desc" : "带给您极佳的视听享受"
@@ -68,8 +68,8 @@
   ],
   "tab2" : [
    {
-    "swiper" : "img/02case/02equipment/swiper_01sy.jpg",
-    "showPic" : "img/02case/02equipment/show_01sy.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_01sy.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_01sy.jpg",
     "tit1" : "沈阳机床",
     "year" : "2010",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -79,8 +79,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_02bj.jpg",
-    "showPic" : "img/02case/02equipment/show_02bj.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_02bj.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_02bj.jpg",
     "tit1" : "宝鸡机床",
     "year" : "2010",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -93,8 +93,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_03tj.jpg",
-    "showPic" : "img/02case/02equipment/show_03tj.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_03tj.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_03tj.jpg",
     "tit1" : "天津锻压机",
     "year" : "2010",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -105,8 +105,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_04nb.jpg",
-    "showPic" : "img/02case/02equipment/show_04nb.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_04nb.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_04nb.jpg",
     "tit1" : "宁波海天精工机床",
     "year" : "2011",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -117,8 +117,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_05as.jpg",
-    "showPic" : "img/02case/02equipment/show_05as.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_05as.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_05as.jpg",
     "tit1" : "鞍山森远集团产品设计",
     "year" : "2012",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -129,8 +129,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_06bf.jpg",
-    "showPic" : "img/02case/02equipment/show_06bf.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_06bf.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_06bf.jpg",
     "tit1" : "大连宝锋集团 ",
     "year" : "2012",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -140,8 +140,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_07ah.jpg",
-    "showPic" : "img/02case/02equipment/show_07ah.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_07ah.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_07ah.jpg",
     "tit1" : "安徽银锐玻璃机械设计 ",
     "year" : "2013",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -153,8 +153,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_08ah.jpg",
-    "showPic" : "img/02case/02equipment/show_08ah.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_08ah.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_08ah.jpg",
     "tit1" : "安徽安瑞科压缩机 ",
     "year" : "2013",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -165,8 +165,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_09sh.jpg",
-    "showPic" : "img/02case/02equipment/show_09sh.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_09sh.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_09sh.jpg",
     "tit1" : "上海汉霸机床 ",
     "year" : "2013",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -176,8 +176,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_10ah.jpg",
-    "showPic" : "img/02case/02equipment/show_10ah.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_10ah.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_10ah.jpg",
     "tit1" : "金洋机床 ",
     "year" : "2014",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -189,8 +189,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_11ah.jpg",
-    "showPic" : "img/02case/02equipment/show_11ah.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_11ah.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_11ah.jpg",
     "tit1" : "安徽普源 ",
     "year" : "2014",
     "tit2" : "品牌策划，全面提升品牌竞争力",
@@ -200,8 +200,8 @@
     ]
    },
    {
-    "swiper" : "img/02case/02equipment/swiper_12dl.jpg",
-    "showPic" : "img/02case/02equipment/show_12dl.jpg",
+    "swiper" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/swiper_12dl.jpg",
+    "showPic" : "http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/02case/02equipment/show_12dl.jpg",
     "tit1" : "大连吉润集团  ",
     "year" : "2015",
     "tit2" : "品牌策划，全面提升品牌竞争力",

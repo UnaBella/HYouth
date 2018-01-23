@@ -101,6 +101,9 @@
   justify-content: center;
   color: #fff;
   background: transparent;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
 }
 .content .part1 .product .con .p {
   display: none;
@@ -214,18 +217,20 @@
   background-position: center center;
 }
 .content .part2 .iconswiper .prev {
+  cursor: pointer;
   left: 0;
-  background-image: url("../img/01index/prev.png");
+  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/prev.png");
 }
 .content .part2 .iconswiper .next {
+  cursor: pointer;
   right: 0;
-  background-image: url("../img/01index/next.png");
+  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/next.png");
 }
 .content .part2 .iconswiper .prev:hover {
-  background-image: url("../img/01index/prev-on.png");
+  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/prev-on.png");
 }
 .content .part2 .iconswiper .next:hover {
-  background-image: url("../img/01index/next-on.png");
+  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/next-on.png");
 }
 .content .part2 .words {
   margin-bottom: 110px;
@@ -259,6 +264,9 @@
   justify-content: center;
   color: #000;
   background: transparent;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
 }
 .content .part3 .news > div .con .p {
   width: 100%;
