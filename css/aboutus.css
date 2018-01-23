@@ -1,0 +1,75 @@
+.top-pic {
+  background: url("../img/04about/top-pic.jpg") no-repeat center;
+}
+.case-tab .tab-tit {
+  width: 712px;
+}
+.case-tab .tab-tit li {
+  width: 25%;
+}
+.case-tab .tab-content {
+  margin-top: 100px;
+}
+.case-tab .tab-content .tab-panel {
+  margin-bottom: 80px;
+}
+.case-tab .tab-content .tab-panel > .paragraph {
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: #999;
+  line-height: 30px;
+  text-align: center;
+}
+.case-tab .tab-content .panel2 {
+  background: url(../img/04about/tab2.jpg) no-repeat top center;
+  margin-bottom: 20px;
+}
+.case-tab .tab-content .panel2 .left {
+  text-align: right;
+}
+.case-tab .tab-content .panel2 .right {
+  text-align: left;
+  margin-left: 60%;
+}
+.case-tab .tab-content .panel2 .right h3 {
+  width: 170px;
+  text-align: right;
+}
+.case-tab .tab-content .panel2 .item {
+  width: auto;
+  height: 150px;
+  line-height: 1;
+  margin-bottom: 80px;
+}
+.case-tab .tab-content .panel2 .item h2 {
+  font-size: 70px;
+}
+.case-tab .tab-content .panel2 .item h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.case-tab .tab-content .panel2 .item p {
+  font-size: 26px;
+}
+.case-tab .tab-content .panel4 {
+  margin-bottom: 68px;
+}
+.case-tab .tab-content .panel4 .fl {
+  width: 757px;
+  margin-right: 57px;
+}
+.case-tab .tab-content .panel4 .fl .design-wenzi h2 {
+  margin-top: 0;
+}
+.case-tab .tab-content .panel4 .fl .design-wenzi h3 {
+  margin-top: 20px;
+}
+.case-tab .tab-content .panel4 .fl .design-wenzi .text {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.case-tab .tab-content .panel4 .fr {
+  width: 385px;
+  height: 560px;
+}
