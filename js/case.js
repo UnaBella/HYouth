@@ -1,7 +1,7 @@
 $(function(){
     var ifSwiper = false;
     var mySwiper;
-
+    $('.header li').eq(1).addClass('on');
     $.ajax({
         type:'get',
         url : '../data/case.json',

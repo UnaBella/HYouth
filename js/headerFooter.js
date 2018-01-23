@@ -2,10 +2,10 @@ var header = '<div class="header ">'+
 				'<div class="clearfix">'+
 					'<a href="index.html"><div class="logo fl"></div></a>'+
 					'<ul class="fl clearfix">'+
-						'<li class="on"><a href="index.html">首页</a></li>'+
-						'<li ><a href="">案例展示</a></li>'+
-						'<li ><a href="">新闻中心</a></li>'+
-						'<li ><a href="">关于我们</a></li>'+
+						'<li ><a href="index.html">首页</a></li>'+
+						'<li ><a href="case.html">案例展示</a></li>'+
+						'<li ><a href="news_list.html">新闻中心</a></li>'+
+						'<li ><a href="aboutus.html">关于我们</a></li>'+
 					'</ul>'+
 				'</div>'+
 			'</div>'
