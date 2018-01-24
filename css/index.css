@@ -16,13 +16,13 @@
   height: 100%;
 }
 .banner .slide1 {
-  background-image: url(../img/01index/banner1.jpg);
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/banner1.jpg);
 }
 .banner .slide2 {
-  background-image: url(../img/01index/banner2.jpg);
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/banner2.jpg);
 }
 .banner .slide3 {
-  background-image: url(../img/01index/banner3.jpg);
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/banner3.jpg);
 }
 .banner .pagination {
   position: absolute;
@@ -72,10 +72,10 @@
   color: #e60012;
 }
 .content .part1 .two .fl i {
-  background: url(../img/01index/two1.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/two1.png) no-repeat;
 }
 .content .part1 .two .fr i {
-  background: url(../img/01index/two2.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/two2.png) no-repeat;
 }
 .content .part1 .product {
   width: 100%;
@@ -122,12 +122,12 @@
 .content .part1 .product .pr1 .left1 .left1_l {
   margin-right: 2%;
   width: 37.5%;
-  background: url(../img/01index/p01.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/p01.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .part1 .product .pr1 .left1 .left1_r {
   width: 60.5%;
-  background: url(../img/01index/p02.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/p02.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .part1 .product .pr1 .left2 > div {
@@ -136,16 +136,16 @@
 .content .part1 .product .pr1 .left2 .left2_l {
   margin-right: 2%;
   width: 60.5%;
-  background: url(../img/01index/p03.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/p03.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .part1 .product .pr1 .left2 .left2_r {
   width: 37.5%;
-  background: url(../img/01index/p04.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/p04.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .part1 .product .pr1 .left3 {
-  background: url(../img/01index/p05.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/p05.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .part1 .product .pr2 {
@@ -158,12 +158,12 @@
 }
 .content .part1 .product .pr2 .mid1 {
   height: 32.5% ;
-  background: url(../img/01index/p06.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/p06.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .part1 .product .pr2 .mid2 {
   height: 65.5%;
-  background: url(../img/01index/p07.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/p07.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .part1 .product .pr3 {
@@ -175,12 +175,12 @@
 }
 .content .part1 .product .pr3 .right1 {
   height: 66%;
-  background: url(../img/01index/p08.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/p08.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .part1 .product .pr3 .right2 {
   height: 31.81%;
-  background: url(../img/01index/p09.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/p09.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .part2 {
@@ -199,13 +199,13 @@
   height: 100%;
 }
 .content .part2 .iconswiper .slide1 {
-  background: url(../img/01index/swipericon1.png) no-repeat top center;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/swipericon1.png) no-repeat top center;
 }
 .content .part2 .iconswiper .slide2 {
-  background: url(../img/01index/swipericon2.png) no-repeat top center;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/swipericon2.png) no-repeat top center;
 }
 .content .part2 .iconswiper .slide3 {
-  background: url(../img/01index/swipericon3.png) no-repeat top center;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/swipericon3.png) no-repeat top center;
 }
 .content .part2 .iconswiper .arrow {
   position: absolute;
@@ -329,7 +329,7 @@
   width: 50%;
 }
 .content .part3 .news .right {
-  background: url(../img/01index/20160819.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/20160819.png) no-repeat;
   background-size: 100% 100%;
   width: 45.16%;
   right: 0;
@@ -340,18 +340,18 @@
 }
 .content .part3 .news2 .mright {
   left: 0;
-  background: url(../img/01index/20160530.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/20160530.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .part3 .news3 .right {
-  background: url(../img/01index/20150916.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/20150916.png) no-repeat;
   background-size: 100% 100%;
 }
 .content .more a {
   color: #000;
 }
 .content .more .icon {
-  background: url(../img/01index/more.png) no-repeat 55% center;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/more.png) no-repeat 55% center;
 }
 .content .more:hover {
   background: #e60012;
@@ -362,7 +362,7 @@
 .content .part4 .in {
   text-align: center;
   height: 900px;
-  background: url(../img/01index/introduce.png) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/introduce.png) no-repeat;
   background-position: center 0;
   background-size: cover;
 }
@@ -391,7 +391,7 @@
 }
 .content .part4 .in .more4 .icon {
   width: 100%;
-  background: url(../img/01index/more.png) no-repeat 60% center;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/more.png) no-repeat 60% center;
 }
 .content .part4 .in .more4 a:hover {
   background: #e60012;

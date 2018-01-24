@@ -1,7 +1,7 @@
 .news_list .banner {
   width: 100%;
   height: 400px;
-  background: url(../img/03news/newsbanner.jpg) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/03news/newsbanner.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -80,7 +80,7 @@
   width: 145px;
   height: 90px;
   display: none;
-  background: url(../img/01index/more.png) no-repeat 55% center;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/more.png) no-repeat 55% center;
 }
 .news_list .content .more {
   cursor: pointer;

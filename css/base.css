@@ -60,7 +60,7 @@ body {
 .header .logo {
   width: 130px;
   height: 50px;
-  background: url(../img/01index/logo.png) no-repeat 0 0 / contain;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/logo.png) no-repeat 0 0 / contain;
   margin-top: 10px;
   margin-left: 50px;
 }
@@ -124,7 +124,7 @@ body {
 }
 .pubpart .in {
   height: 700px;
-  background: url(../img/01index/pubbg.jpg) no-repeat;
+  background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/pubbg.jpg) no-repeat;
   background-position: center 0;
   background-size: cover;
 }
@@ -150,7 +150,7 @@ body {
 .pubpart .in .t .icon i {
   margin-right: 60px;
   display: inline-block;
-  background: url('../img/01index/icon.png') no-repeat;
+  background: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/HYouthWebsite/img/01index/icon.png") no-repeat;
 }
 .pubpart .in .t .icon .icon1 {
   width: 35px;
