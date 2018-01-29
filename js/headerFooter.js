@@ -29,7 +29,7 @@ var footer = '<div class="footer">'+
 						'<ul>'+
 							'<li><a href="case-pro.html?id=maoding_1">STAB ME 头戴式蓝牙耳机</a></li>'+
 							'<li><a href="case-pro.html?id=fengmi_2">哈米固态蜂蜜</a></li>'+
-							'<li><a href="case-pro.html?id=dayinxiang_5">汤姆逊风云系列音响</a></li>'+
+							'<li><a href="case-pro.html?id=dayinxiang_5">汤姆逊层云系列音响</a></li>'+
 							'<li><a href="case-pro.html?id=cuijian_3">崔健手机</a></li>'+
 						'</ul>'+
 					'</div>'+
